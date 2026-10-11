@@ -1,0 +1,9 @@
+# AI Personal Finance Intelligence Assistant — Streamlit edition
+# Install with: pip install -r requirements.txt
+
+streamlit>=1.40          # UI framework
+pandas>=2.2              # CSV parsing + data manipulation
+plotly>=5.24             # donut + bar charts (via plotly.express)
+google-genai>=1.0.0      # Google Gemini SDK (primary LLM)
+openai>=1.50.0           # OpenAI SDK (fallback LLM)
+python-dotenv>=1.0.1     # loads GEMINI_API_KEY / OPENAI_API_KEY from .env
